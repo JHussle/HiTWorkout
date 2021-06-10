@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D483BC2726718B0B00FB05A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D483BC2626718B0B00FB05A9 /* AppDelegate.swift */; };
+		D483BC2926718B0B00FB05A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D483BC2826718B0B00FB05A9 /* SceneDelegate.swift */; };
+		D483BC2B26718B0B00FB05A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D483BC2A26718B0B00FB05A9 /* ViewController.swift */; };
+		D483BC2E26718B0B00FB05A9 /* MainTabViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D483BC2C26718B0B00FB05A9 /* MainTabViewController.storyboard */; };
+		D483BC3126718B0B00FB05A9 /* HiTWorkoutTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D483BC2F26718B0B00FB05A9 /* HiTWorkoutTracker.xcdatamodeld */; };
+		D483BC3326718B0D00FB05A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D483BC3226718B0D00FB05A9 /* Assets.xcassets */; };
+		D483BC3626718B0D00FB05A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D483BC3426718B0D00FB05A9 /* LaunchScreen.storyboard */; };
+		D483BC4126718B0E00FB05A9 /* HiTWorkoutTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D483BC4026718B0E00FB05A9 /* HiTWorkoutTrackerTests.swift */; };
+		D483BC4C26718B0E00FB05A9 /* HiTWorkoutTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D483BC4B26718B0E00FB05A9 /* HiTWorkoutTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D483BC3D26718B0E00FB05A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D483BC1B26718B0B00FB05A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D483BC2226718B0B00FB05A9;
+			remoteInfo = HiTWorkoutTracker;
+		};
+		D483BC4826718B0E00FB05A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D483BC1B26718B0B00FB05A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D483BC2226718B0B00FB05A9;
+			remoteInfo = HiTWorkoutTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D483BC2326718B0B00FB05A9 /* HiTWorkoutTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiTWorkoutTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D483BC2626718B0B00FB05A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D483BC2826718B0B00FB05A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D483BC2A26718B0B00FB05A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D483BC2D26718B0B00FB05A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainTabViewController.storyboard; sourceTree = "<group>"; };
+		D483BC3026718B0B00FB05A9 /* HiTWorkoutTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HiTWorkoutTracker.xcdatamodel; sourceTree = "<group>"; };
+		D483BC3226718B0D00FB05A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D483BC3526718B0D00FB05A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D483BC3726718B0D00FB05A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D483BC3C26718B0E00FB05A9 /* HiTWorkoutTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiTWorkoutTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D483BC4026718B0E00FB05A9 /* HiTWorkoutTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiTWorkoutTrackerTests.swift; sourceTree = "<group>"; };
+		D483BC4226718B0E00FB05A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D483BC4726718B0E00FB05A9 /* HiTWorkoutTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiTWorkoutTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D483BC4B26718B0E00FB05A9 /* HiTWorkoutTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiTWorkoutTrackerUITests.swift; sourceTree = "<group>"; };
+		D483BC4D26718B0E00FB05A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D483BC622671990700FB05A9 /* HiTWorkoutPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HiTWorkoutPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D483BC2026718B0B00FB05A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D483BC3926718B0E00FB05A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D483BC4426718B0E00FB05A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D483BC1A26718B0B00FB05A9 = {
+			isa = PBXGroup;
+			children = (
+				D483BC2526718B0B00FB05A9 /* HiTWorkoutTracker */,
+				D483BC3F26718B0E00FB05A9 /* HiTWorkoutTrackerTests */,
+				D483BC4A26718B0E00FB05A9 /* HiTWorkoutTrackerUITests */,
+				D483BC2426718B0B00FB05A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D483BC2426718B0B00FB05A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D483BC2326718B0B00FB05A9 /* HiTWorkoutTracker.app */,
+				D483BC3C26718B0E00FB05A9 /* HiTWorkoutTrackerTests.xctest */,
+				D483BC4726718B0E00FB05A9 /* HiTWorkoutTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D483BC2526718B0B00FB05A9 /* HiTWorkoutTracker */ = {
+			isa = PBXGroup;
+			children = (
+				D483BC5B267196F300FB05A9 /* Scenes */,
+				D483BC5A26718B4C00FB05A9 /* Model */,
+				D483BC5926718B3600FB05A9 /* Resources */,
+				D483BC2626718B0B00FB05A9 /* AppDelegate.swift */,
+				D483BC2826718B0B00FB05A9 /* SceneDelegate.swift */,
+				D483BC2A26718B0B00FB05A9 /* ViewController.swift */,
+				D483BC3426718B0D00FB05A9 /* LaunchScreen.storyboard */,
+				D483BC3726718B0D00FB05A9 /* Info.plist */,
+				D483BC2F26718B0B00FB05A9 /* HiTWorkoutTracker.xcdatamodeld */,
+			);
+			path = HiTWorkoutTracker;
+			sourceTree = "<group>";
+		};
+		D483BC3F26718B0E00FB05A9 /* HiTWorkoutTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D483BC4026718B0E00FB05A9 /* HiTWorkoutTrackerTests.swift */,
+				D483BC4226718B0E00FB05A9 /* Info.plist */,
+			);
+			path = HiTWorkoutTrackerTests;
+			sourceTree = "<group>";
+		};
+		D483BC4A26718B0E00FB05A9 /* HiTWorkoutTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D483BC4B26718B0E00FB05A9 /* HiTWorkoutTrackerUITests.swift */,
+				D483BC4D26718B0E00FB05A9 /* Info.plist */,
+			);
+			path = HiTWorkoutTrackerUITests;
+			sourceTree = "<group>";
+		};
+		D483BC5926718B3600FB05A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D483BC3226718B0D00FB05A9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D483BC5A26718B4C00FB05A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D483BC5B267196F300FB05A9 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D483BC60267198C100FB05A9 /* Logic */,
+				D483BC5F2671983100FB05A9 /* MainTabViewController */,
+				D483BC5E267197AF00FB05A9 /* WorkoutTrackerController */,
+				D483BC5D2671975000FB05A9 /* HiTWorkoutController */,
+				D483BC5C2671971E00FB05A9 /* HomeViewController */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D483BC5C2671971E00FB05A9 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		D483BC5D2671975000FB05A9 /* HiTWorkoutController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HiTWorkoutController;
+			sourceTree = "<group>";
+		};
+		D483BC5E267197AF00FB05A9 /* WorkoutTrackerController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WorkoutTrackerController;
+			sourceTree = "<group>";
+		};
+		D483BC5F2671983100FB05A9 /* MainTabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D483BC2C26718B0B00FB05A9 /* MainTabViewController.storyboard */,
+			);
+			path = MainTabViewController;
+			sourceTree = "<group>";
+		};
+		D483BC60267198C100FB05A9 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				D483BC61267198D200FB05A9 /* Logic Playground */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		D483BC61267198D200FB05A9 /* Logic Playground */ = {
+			isa = PBXGroup;
+			children = (
+				D483BC622671990700FB05A9 /* HiTWorkoutPlayground.playground */,
+			);
+			path = "Logic Playground";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D483BC2226718B0B00FB05A9 /* HiTWorkoutTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D483BC5026718B0E00FB05A9 /* Build configuration list for PBXNativeTarget "HiTWorkoutTracker" */;
+			buildPhases = (
+				D483BC1F26718B0B00FB05A9 /* Sources */,
+				D483BC2026718B0B00FB05A9 /* Frameworks */,
+				D483BC2126718B0B00FB05A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiTWorkoutTracker;
+			productName = HiTWorkoutTracker;
+			productReference = D483BC2326718B0B00FB05A9 /* HiTWorkoutTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D483BC3B26718B0E00FB05A9 /* HiTWorkoutTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D483BC5326718B0E00FB05A9 /* Build configuration list for PBXNativeTarget "HiTWorkoutTrackerTests" */;
+			buildPhases = (
+				D483BC3826718B0E00FB05A9 /* Sources */,
+				D483BC3926718B0E00FB05A9 /* Frameworks */,
+				D483BC3A26718B0E00FB05A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D483BC3E26718B0E00FB05A9 /* PBXTargetDependency */,
+			);
+			name = HiTWorkoutTrackerTests;
+			productName = HiTWorkoutTrackerTests;
+			productReference = D483BC3C26718B0E00FB05A9 /* HiTWorkoutTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D483BC4626718B0E00FB05A9 /* HiTWorkoutTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D483BC5626718B0E00FB05A9 /* Build configuration list for PBXNativeTarget "HiTWorkoutTrackerUITests" */;
+			buildPhases = (
+				D483BC4326718B0E00FB05A9 /* Sources */,
+				D483BC4426718B0E00FB05A9 /* Frameworks */,
+				D483BC4526718B0E00FB05A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D483BC4926718B0E00FB05A9 /* PBXTargetDependency */,
+			);
+			name = HiTWorkoutTrackerUITests;
+			productName = HiTWorkoutTrackerUITests;
+			productReference = D483BC4726718B0E00FB05A9 /* HiTWorkoutTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D483BC1B26718B0B00FB05A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D483BC2226718B0B00FB05A9 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					D483BC3B26718B0E00FB05A9 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D483BC2226718B0B00FB05A9;
+					};
+					D483BC4626718B0E00FB05A9 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D483BC2226718B0B00FB05A9;
+					};
+				};
+			};
+			buildConfigurationList = D483BC1E26718B0B00FB05A9 /* Build configuration list for PBXProject "HiTWorkoutTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D483BC1A26718B0B00FB05A9;
+			productRefGroup = D483BC2426718B0B00FB05A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D483BC2226718B0B00FB05A9 /* HiTWorkoutTracker */,
+				D483BC3B26718B0E00FB05A9 /* HiTWorkoutTrackerTests */,
+				D483BC4626718B0E00FB05A9 /* HiTWorkoutTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D483BC2126718B0B00FB05A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D483BC3626718B0D00FB05A9 /* LaunchScreen.storyboard in Resources */,
+				D483BC3326718B0D00FB05A9 /* Assets.xcassets in Resources */,
+				D483BC2E26718B0B00FB05A9 /* MainTabViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D483BC3A26718B0E00FB05A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D483BC4526718B0E00FB05A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D483BC1F26718B0B00FB05A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D483BC2B26718B0B00FB05A9 /* ViewController.swift in Sources */,
+				D483BC2726718B0B00FB05A9 /* AppDelegate.swift in Sources */,
+				D483BC3126718B0B00FB05A9 /* HiTWorkoutTracker.xcdatamodeld in Sources */,
+				D483BC2926718B0B00FB05A9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D483BC3826718B0E00FB05A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D483BC4126718B0E00FB05A9 /* HiTWorkoutTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D483BC4326718B0E00FB05A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D483BC4C26718B0E00FB05A9 /* HiTWorkoutTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D483BC3E26718B0E00FB05A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D483BC2226718B0B00FB05A9 /* HiTWorkoutTracker */;
+			targetProxy = D483BC3D26718B0E00FB05A9 /* PBXContainerItemProxy */;
+		};
+		D483BC4926718B0E00FB05A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D483BC2226718B0B00FB05A9 /* HiTWorkoutTracker */;
+			targetProxy = D483BC4826718B0E00FB05A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D483BC2C26718B0B00FB05A9 /* MainTabViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D483BC2D26718B0B00FB05A9 /* Base */,
+			);
+			name = MainTabViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		D483BC3426718B0D00FB05A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D483BC3526718B0D00FB05A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D483BC4E26718B0E00FB05A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D483BC4F26718B0E00FB05A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D483BC5126718B0E00FB05A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M32435F9W;
+				INFOPLIST_FILE = HiTWorkoutTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.InfiniteStackDevelopments.HiTWorkoutTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D483BC5226718B0E00FB05A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M32435F9W;
+				INFOPLIST_FILE = HiTWorkoutTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.InfiniteStackDevelopments.HiTWorkoutTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D483BC5426718B0E00FB05A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M32435F9W;
+				INFOPLIST_FILE = HiTWorkoutTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.InfiniteStackDevelopments.HiTWorkoutTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiTWorkoutTracker.app/HiTWorkoutTracker";
+			};
+			name = Debug;
+		};
+		D483BC5526718B0E00FB05A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M32435F9W;
+				INFOPLIST_FILE = HiTWorkoutTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.InfiniteStackDevelopments.HiTWorkoutTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiTWorkoutTracker.app/HiTWorkoutTracker";
+			};
+			name = Release;
+		};
+		D483BC5726718B0E00FB05A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M32435F9W;
+				INFOPLIST_FILE = HiTWorkoutTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.InfiniteStackDevelopments.HiTWorkoutTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HiTWorkoutTracker;
+			};
+			name = Debug;
+		};
+		D483BC5826718B0E00FB05A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M32435F9W;
+				INFOPLIST_FILE = HiTWorkoutTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.InfiniteStackDevelopments.HiTWorkoutTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HiTWorkoutTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D483BC1E26718B0B00FB05A9 /* Build configuration list for PBXProject "HiTWorkoutTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D483BC4E26718B0E00FB05A9 /* Debug */,
+				D483BC4F26718B0E00FB05A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D483BC5026718B0E00FB05A9 /* Build configuration list for PBXNativeTarget "HiTWorkoutTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D483BC5126718B0E00FB05A9 /* Debug */,
+				D483BC5226718B0E00FB05A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D483BC5326718B0E00FB05A9 /* Build configuration list for PBXNativeTarget "HiTWorkoutTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D483BC5426718B0E00FB05A9 /* Debug */,
+				D483BC5526718B0E00FB05A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D483BC5626718B0E00FB05A9 /* Build configuration list for PBXNativeTarget "HiTWorkoutTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D483BC5726718B0E00FB05A9 /* Debug */,
+				D483BC5826718B0E00FB05A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D483BC2F26718B0B00FB05A9 /* HiTWorkoutTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D483BC3026718B0B00FB05A9 /* HiTWorkoutTracker.xcdatamodel */,
+			);
+			currentVersion = D483BC3026718B0B00FB05A9 /* HiTWorkoutTracker.xcdatamodel */;
+			path = HiTWorkoutTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D483BC1B26718B0B00FB05A9 /* Project object */;
+}
